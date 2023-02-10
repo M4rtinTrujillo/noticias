@@ -18,40 +18,36 @@ const Navbar = () => {
           eventButton();
         }}
       >
-        <i class='fa-solid fa-bars'></i>
+        <i className='fa-solid fa-bars'></i>
       </button>
       {open ? (
         <ul className='navbar-vertical'>
           <li>
-            <Link to='/culture'>Cultura</Link>
+            <Link to='culture'>Cultura</Link>
           </li>
           <li>
-            <Link to='/culture'>Tecnologia</Link>
+            <Link to='culture'>Tecnologia</Link>
           </li>
           <li>
-            <a>
-              <Link to='/culture'>Memes</Link>
-            </a>
+            <Link to='culture'>Memes</Link>
           </li>
           <li>
-            <Link to='/culture'>Deportes</Link>
+            <Link to='culture'>Deportes</Link>
           </li>
         </ul>
       ) : null}
       <ul className='navbar-horizontal'>
         <li>
-          <Link to='/culture'>Cultura</Link>
+          <Link to='culture'>Cultura</Link>
         </li>
         <li>
-          <Link to='/culture'>Tecnologia</Link>
+          <Link to='culture'>Tecnologia</Link>
         </li>
         <li>
-          <a>
-            <Link to='/culture'>Memes</Link>
-          </a>
+          <Link to='culture'>Memes</Link>
         </li>
         <li>
-          <Link to='/culture'>Deportes</Link>
+          <Link to='culture'>Deportes</Link>
         </li>
       </ul>
     </nav>
