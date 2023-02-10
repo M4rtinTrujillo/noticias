@@ -1,0 +1,30 @@
+.vistaPreviaNoticia {
+  position: relative;
+
+  background: #00000052;
+    font-size: 12px;
+}
+
+.descripcion {
+  background: #00000052;
+}
+.vistaPreviaNoticia .descripcion {
+  position: absolute;
+  bottom: 0px;
+
+  color: white;
+  padding: 1rem;
+
+  font-weight: bold;
+
+}
+
+.imagenDeFondo img {
+  max-height: 460px;
+  width: 100%;
+}
+
+.autor {
+  display: block;
+  word-break: break-all;
+}
