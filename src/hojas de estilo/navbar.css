@@ -1,0 +1,30 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-vertical{
+  display:flex;
+  flex-direction: column;
+}
+.navbar  ul{
+  display: flex;
+}
+
+.navbar li{
+
+  font-size: 20px;
+
+  padding: 0 20px;
+  margin: 0 5rem;
+}
+
+.navbar a{
+  color:white ;
+}
