@@ -1,11 +1,11 @@
 import React from 'react';
 import logorpa from '../../imagenes/header/rpa-logo.png';
 import adsnews from '../../imagenes/header/ads-news-01.jpg';
-import  '../../hojas de estilo/header.css'
+import '../../hojas de estilo/header.css';
 const Header = () => {
   return (
     <div className='header-contenedor'>
-      <div >
+      <div>
         <img src={logorpa} className='logo-rpa' alt='' />
       </div>
 

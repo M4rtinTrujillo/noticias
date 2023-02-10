@@ -1,12 +1,18 @@
-.header-contenedor{
+.header-contenedor {
   background-color: rgb(170, 234, 236);
   display: flex;
   justify-content: space-between;
   padding: 40px;
 }
-.logo-rpa  {
+.logo-rpa {
   cursor: pointer;
 }
-.ads-news{
+.ads-news {
   cursor: pointer;
+  width: 200px;
+}
+@media (min-width: 600px) {
+  .ads-news {
+    width: 400px;
+  }
 }
