@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 //import Header from '../header/Header';
 //import Navbar from '../navbar/Navbar';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+
 import VistaPreviaNoticia from '../vista_previa_noticia/VistaPreviaNoticia';
 
 const API_KEY = 'f7c7be445787401ab815378dd443d132';
@@ -28,9 +29,13 @@ const inicio = () => {
           columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2, 1200: 4 }}
         >
           <Masonry gutter='16px'>
-            {news.map(function (articulo) {
+            {news.map(function (articulo, index) {
               return (
-                <VistaPreviaNoticia articulo={articulo}></VistaPreviaNoticia>
+                <VistaPreviaNoticia
+                  articulo={articulo}
+                  index={index}
+                  key={index}
+                ></VistaPreviaNoticia>
               );
             })}
           </Masonry>
