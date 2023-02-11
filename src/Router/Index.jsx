@@ -10,8 +10,6 @@ const MyRouter = () => {
     <BrowserRouter>
       <Header></Header>
       <Navbar></Navbar>
-
-
       <Routes>
         <Route path='/' element={<Navigate to={'inicio'}></Navigate>}></Route>
         <Route path='inicio' element={<Inicio></Inicio>}></Route>
